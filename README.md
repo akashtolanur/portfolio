@@ -1,65 +1,37 @@
 # Akash Tolanur — Portfolio
 
-React + Vite + TypeScript rebuild of the portfolio site.
+🔗 **Live site:** [akashtolanur.github.io/portfolio/](https://akashtolanur.github.io/portfolio/)
 
-## Structure
+My personal portfolio — built to showcase my work as a Full Stack Developer, currently building Comutoo, a corporate transport booking and billing platform, at Lavi Carz Pvt Ltd.
 
-```
-src/
-  data.ts           # all resume content — edit this to update text
-  utils.tsx         # small helper for rendering **bold** in bullet text
-  styles.css        # global stylesheet (ticket/manifest design system)
-  App.tsx           # assembles the page from section components
-  components/       # Nav, Hero, About, Experience, Skills, Projects, Education, Footer
-```
+## Tech Stack
 
-To change any text on the site (job bullets, skills, project descriptions, links),
-edit `src/data.ts` — you shouldn't need to touch the components.
+**Frontend**
+React.js · TypeScript · Vite · CSS · Tailwind CSS  
 
-## Run locally
+**Backend & Databases** (used across my projects)
+Node.js · Express.js · MySQL · RESTful APIs · JWT Auth · Role-Based Access Control
 
-```bash
-npm install
-npm run dev
-```
+**Cloud & DevOps**
+Google Cloud Platform (Cloud Run, Compute Engine, Cloud SQL, Secret Manager, Cloud Scheduler) · Docker · Firebase · AWS S3 · Cloudflare CDN · GitHub Actions CI/CD
 
-Opens at `http://localhost:5173`.
+**AI & ML**
+Retrieval-Augmented Generation (RAG) · LLM API Integration (OpenAI / Anthropic / Gemini)
 
-## Build
+## What's on the site
 
-```bash
-npm run build
-npm run preview   # sanity-check the production build locally
-```
+- **About** — who I am and what I work on
+- **Experience** — my role at Lavi Carz and my previous work at Fortrea
+- **Skills** — full breakdown by category
+- **Projects** — Comutoo, an AI-powered RAG chatbot, and a corporate transport website
+- **Education** — MCA (in progress) and my bachelor's degree
 
-## Deploy to GitHub Pages
+## Connect
 
-**Important first step:** open `vite.config.ts` and set `base` to match your
-repo name, e.g. if your repo is `github.com/akashtolanur/portfolio`:
+- Email: akashtolanur171717@gmail.com
+- GitHub: [github.com/akashtolanur](https://github.com/akashtolanur)
+- LinkedIn: [linkedin.com/in/akash-tolanur](https://linkedin.com/in/akash-tolanur)
 
-```ts
-base: '/portfolio/',
-```
+---
 
-If your repo is instead named `akashtolanur.github.io` (a root user/org page),
-set `base: '/'`.
-
-### Option A — GitHub Actions (recommended, already set up)
-
-This repo includes `.github/workflows/deploy.yml`, which builds and deploys
-automatically on every push to `main`.
-
-1. Push this project to a GitHub repo.
-2. In the repo, go to **Settings → Pages** and set **Source** to
-   **GitHub Actions**.
-3. Push to `main` — the workflow builds the site and publishes it.
-4. Your site will be live at `https://<username>.github.io/<repo-name>/`.
-
-### Option B — `gh-pages` package (manual deploy)
-
-```bash
-npm run deploy
-```
-
-This builds the project and pushes the `dist` folder to a `gh-pages` branch.
-Then in **Settings → Pages**, set the source branch to `gh-pages`.
+Deployed automatically via GitHub Actions on every push to `main`.
