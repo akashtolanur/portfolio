@@ -17,7 +17,7 @@ export const profile = {
 export const aboutCopy = [
   "I'm a full stack developer at Lavi Carz, where I've spent the past year building Comutoo — a B2B corporate transport platform handling bookings, billing, dispatch and payroll for companies that move employees on fixed shifts.",
   "Most of what I've learned has come from owning problems end to end: designing the schema, writing the middleware, then watching the cloud bill and rewriting the infrastructure when it got too expensive. I moved into engineering from a safety science analyst role at Fortrea, and I'm now finishing an MCA through distance learning alongside the day job.",
-  "Outside of work I'm building a YouTube channel documenting the realities of the Indian IT job market, freelancing, and money — aimed at developers who want more control over how and where they work.",
+  "Outside of work I'm picking up new tools, going deep on system design — how large-scale systems at big tech are actually put together — and starting DSA prep to sharpen the fundamentals.",
 ]
 
 export const stats = [
